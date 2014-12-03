@@ -1,0 +1,124 @@
+/*** CLEAN IT */
+.image-viewer {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.image-viewer .container {
+  height: 100%;
+  width: 1000000px; /* to infinity ... and beyond! */
+}
+.pos-relative {
+  position: relative;
+}
+.image-viewer .item {
+  float: left;
+  margin-right: 10px;
+  background-color: #000;
+}
+.image-viewer .item img {
+  height: 100px;
+  margin: 0;
+  cursor: pointer;
+  /*opacity: 0.5;*/
+}
+.image-viewer .item img.selected {
+  /*opacity: 1;*/
+}
+
+.image-viewer .item img.overlay {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.image-viewer .item .thumb {
+  position: absolute;
+}
+.image-viewer.zoomed .item .thumb {
+  display: none;
+}
+
+
+/* The controls */
+.image-viewer .item-list {
+  margin-top: 20px;
+}
+ul.controls.views-slideshow-controls-text {
+  display: block;
+  opacity: 1;
+}
+ul.controls {
+  display: none;
+  opacity: 0;
+  height: 12px;
+}
+ul.controls .placeholder.inactive {
+  background-position: bottom center;
+}
+ul.controls .inactive:hover {
+  cursor: default;
+}
+
+ul.controls a, ul.controls .placeholder {
+  background-repeat: no-repeat;
+  display: block;
+  width: 15px;
+  float: left;
+}
+ul.controls span.label {
+  display: none;
+}
+ul.controls .previous {
+  background-image: url('sprite-arrow-previous.png');
+  background-position: top left;
+  height: 11px;
+}
+ul.controls .previous.disabled,
+ul.controls .previous:hover {
+  background-position: bottom left;
+}
+ul.controls .next {
+  background-image: url('sprite-arrow-next.png');
+  background-position: top right;
+  height: 11px;
+}
+ul.controls .next.disabled,
+ul.controls .next:hover {
+  background-position: bottom right;
+}
+ul.controls .placeholder {
+  background-position: top center;
+  background-image: url('sprite-cross.png');
+  height: 11px;
+}
+ul.controls .placeholder:hover {
+  background-position: bottom center;
+}
+ul.controls,
+ul.controls li {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
+  float: left;
+}
+
+/* Siblings */
+.node-type-article-case .siblings {margin-bottom: 15px;}
+.siblings                {float: right; margin-top: -20px; height: 99px; margin-bottom: 50px;}
+.siblings .sibling a     {display: inline-block; background: no-repeat scroll 0 0 transparent; height: 47px;line-height:47px;margin-bottom: 5px;}
+.siblings .sibling-next  {text-align:right;}
+.siblings .sibling-next a {background-image: url('sprite-largearrow-next.png'); background-position: right top;padding-right: 50px}
+.siblings .sibling-next a:hover {}
+.siblings .sibling-previous a {background-image: url('sprite-largearrow-previous.png'); background-position: left top;padding-left: 50px;margin-right: 120px;}
+.siblings .sibling-previous a:hover {}
+
+.views-slideshow-controls-bottom {
+  margin-top: 20px;
+  position: relative;
+  z-index:9;
+}

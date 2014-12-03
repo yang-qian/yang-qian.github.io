@@ -1,0 +1,38 @@
+*{ box-sizing: border-box; position: relative; }
+body{ background: #e0e0e0; color: #444; font: 62.5% Futura; }
+label{cursor: pointer;}
+
+.expand-label{ 
+  display: block;
+  color: #b00; 
+  font-size: 0.8em; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 0 0 10px;
+}
+
+.expand-label:hover{ background: #e9e9e9;}
+.expand-label::before{
+  display: inline-block;
+  content: "⊕"; 
+  font-size: 0.8em; 
+  margin-right: 3px; 
+  transition: transform .1s;
+}
+
+.expand-input{display: none;}
+.expand-content{
+ background-color:rgba(238, 238, 238, 0.5);
+  max-height: 0; 
+  overflow: hidden;
+  padding: 0 20px;
+  transition: max-height .2s;
+}
+
+.expand-input:checked + .expand-label::before{
+  transform: rotate(45deg);
+  transition: transform .1s;
+}
+.expand-input:checked ~ .expand-content{
+  max-height: 1000px;
+}

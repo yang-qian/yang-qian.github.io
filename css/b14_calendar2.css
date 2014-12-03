@@ -1,0 +1,52 @@
+#block-views-calendar-timeline {
+  background-color: #fff;
+  border-bottom: 1px solid #c7c7c7;
+  
+  position: fixed;
+  z-index: 999;
+}
+.view-calendar.view-display-id-timeline {
+  position: relative;
+}
+.view-calendar.view-display-id-timeline .marker {
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  
+  background-image: url('../img/dragButton.png');
+  height: 50px;
+  width: 10px;
+  
+  margin-left: -4px;
+  
+  cursor: pointer;
+}
+.view-calendar.view-display-id-timeline .marker.ui-draggable-dragging,
+.view-calendar.view-display-id-timeline .marker:hover {
+  background-position: -10px 0;
+}
+.view-calendar.view-display-id-timeline .views-row {
+  float: left;
+  text-align: center;
+  
+  line-height: 50px;
+  
+  height: 50px;
+  width: 85px;
+  
+  background-image: url('../img/breaker.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.view-calendar.view-display-id-timeline .views-row.views-row-first {
+  background-image: none;
+}
+.view-calendar.view-display-id-timeline .views-row.views-row-last {
+  width: 86px;
+}
+
+.page-calendar-2013 #header-scaffold {
+  height: 185px;
+  padding-top: 0;
+}

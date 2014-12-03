@@ -1,0 +1,227 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * GENERAL
+ *
+ * Colors
+ * light grey #B2B2B2 (borders)
+ * ----------------------------------------------------------------------------------------
+ */
+
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * HEADER & FOOTER
+ * ----------------------------------------------------------------------------------------
+ */
+#site-logo-slogan                               {margin-top: 0;}
+#site-logo-slogan #site-logo                    {float:left;margin-top: 11px}
+#site-logo-slogan #site-slogan                  {float:left;margin-left: 47px;color: #B2B2B2}
+ 
+#header                                         {border-bottom: 1px solid #C7C7C7}
+#header-scaffold                                {border-bottom: 1px solid #FFF}
+
+#footer p.title                                 {border-bottom: 1px solid #C7C7C7;margin-bottom: 25px}
+#footer a                                       {text-decoration: none}
+#footer a.goto-top                              {background: url(sprite-arrow-link-up.png) no-repeat 0 0;padding-left: 35px}
+#footer a.goto-top:hover                        {background-position: 0 -15px}
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * NAVIGATION
+ * ----------------------------------------------------------------------------------------
+ */
+#navigation                                     {margin: 0 0 1.5em;padding: 0;}
+#navigation ul li a:hover,
+#navigation ul li a.active,
+#navigation ul li a.active-trail                {color: #B2B2B2}
+
+#navigation ul.main-menu                        {margin: 0;padding: 0}
+#navigation ul.main-menu li                     {padding: 0;border-bottom: 1px solid #C7C7C7}
+#navigation ul.main-menu li a                   {display: block;line-height: 32px}
+
+#navigation ul.secondary-menu                   {margin: 0;padding: 0}
+#navigation ul.secondary-menu li                {margin: 0;padding: 0}
+#navigation ul.secondary-menu li a              {display: block;float: left;padding: 0 1em}
+
+.section-menu                                   {margin:0;padding-bottom:0;position: absolute;bottom:0;left:0}
+.section-menu ul                                {margin: 0;padding: 0}
+.section-menu ul li                             {float:left;list-style: none;margin: 0 20px 0 0;padding: 0 20px 0 0;background: url(img-line-17.png) no-repeat 100% 7px}
+.section-menu ul li.last                        {background: none;margin: 0;padding: 0}
+
+.section-menu li a.active                       {color:#B2B2B2}
+.section-menu li a                              {display: block}
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * BLOCKS
+ * ----------------------------------------------------------------------------------------
+ */
+.block-ref .section-title                       {border-bottom: 1px solid #C7C7C7;margin-bottom: 30px}
+.block-ref                                      {margin-bottom: 60px}
+
+#block-views-employees-block .section-title     {margin-bottom: 56px}
+
+/* Clients list */
+
+#block-site-module-clients-list .intro-text     {margin-bottom: 60px}
+#block-site-module-clients-list .clients .label {margin-bottom: 19px}
+
+/* Thoughts */
+#view-thoughts-pager a                          {display:block;height: 47px;line-height: 47px}
+#view-thoughts-pager a .label                   {padding: 0 47px}
+#view-thoughts-pager a.pager-prev               {background: url(sprite-largearrow-previous.png) no-repeat 0 0}
+#view-thoughts-pager a.pager-next               {text-align: right;background: url(sprite-largearrow-next.png) no-repeat 100% 0}
+
+#view-thoughts-index .index-item                {margin-right: 30px}
+#view-thoughts-index .activeSlide a             {color: #FFF}
+
+.view-thoughts .view-content                    {margin-top: -32px}
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * NODE ARTICLES STATIC TEMPLATES
+ * ----------------------------------------------------------------------------------------
+ */
+.node img                                       {display: block}
+
+.margin-large                                   {margin-left: 70px}
+.top-line                                       {background:url('img-top-line.png') no-repeat 0 0;padding-top: 21px} 
+.headline                                       {margin-bottom: 45px} 
+.top-layer                                      {position: relative;z-index:12}
+.grey                                           {color:#B2B2B2}
+ 
+/* Node: Static */ 
+ 
+.node-article-static                            {margin-bottom: 0}
+ 
+.template-image-text-1 .headline                {position: relative;left:-133px;top:-7px;}
+
+.template-image-text-2 .headline                {position: relative;top:-7px;margin-bottom: 20px}
+.template-image-text-2 .sub-headline            {margin-bottom: 60px}
+.template-image-text-2 .image-1                 {position: relative;left:-70px}
+.template-image-text-2 .image-2                 {margin: 50px 0 0 256px}
+.template-image-text-2 .body                    {padding-right: 70px}
+.template-slideshow-text-1 .headline            {position: relative;top:-7px;margin-bottom: 30px}
+.template-slideshow-text-2 .headline            {margin-top: 21px}
+.template-slideshow-text-2 .image-1             {margin-bottom: 55px;}
+.view-promoted.view-display-id-block .views-slideshow-controls-bottom {margin-top: -69px;position: relative;z-index:9;}
+#block-views-promoted-block                     {margin-bottom: 69px;}
+
+.node-article-case .image-1                     {margin-bottom: 21px}
+
+/* Node: Employee */
+
+.node-article-employee.node-list-item           {margin-bottom: 45px}
+.node-article-employee.node-list-item .info     {margin: 0 0 0 20px;padding-top:21px;}
+.node-article-employee.node-list-item .info.contact-list {margin-left: 0}
+.node-article-employee.node-list-item .info.about-list {border-top: 1px solid #C7C7C7;margin-top: 25px;}
+.node-article-employee.node-list-item .info.about-list .title {margin-bottom: 0}
+.node-article-employee.node-list-item a.image-dual-hover {text-decoration: none}
+.node-article-employee .employee-content        {width:387px}
+.node-article-employee .info                    {margin-bottom:20px}
+.node-article-employee .label                   {width: 30px;display: block;float: left}
+.node-article-employee .title                   {color:#B2B2B2;margin-bottom: 1em}
+.node-article-employee .hover-text              {position: absolute;z-index: 99;text-align: center;color: #FFF;margin-top: 35px;}
+.node-article-employee .image-dual-hover .img-hover {position: absolute;z-index: -99}
+.node-article-employee .image-dual-hover        {display:block;width: 186px;height: 186px;}
+.node-article-employee .headline                {position: relative;left:-133px;top:-7px;}
+.node-article-employee .sub-headline            {position: relative;left:-133px;top:-7px;}
+.node-article-employee .image-1                 {margin-bottom: 50px}
+.node-article-employee .video-list              {margin-top: 50px;}
+.node-article-employee .video-list .image-dual-hover {width: 560px;height: 340px; top: 0px; left: 0px; position: absolute;cursor:pointer;}
+.node-article-employee .video-list .image-dual-hover .img-hover {position: static;}
+.node-article-employee .video-list .image-dual-hover .img-hover .hover-text {display: none;}
+.node-article-employee .video-list .video-item  {width: 560px;height: 480px;position: relative; margin-bottom: 120px;}
+.node-article-employee .video-list .video-data  {margin-top: 20px; padding-top: 25px; border-top: 1px solid #C5C5C5;}
+.node-article-employee .video-list .video-data .field-name-field-video-description {color:#B2B2B2; margin-bottom: 1em;}
+.node-article-employee .video-list .video-share {margin-top: 46px;}
+.node-article-employee .video-list .items-left  {float: left;}
+.node-article-employee .video-list .items-right {float: right; margin-top: 260px;}
+
+/* Node: Case */
+
+.node-article-case .headline                    {margin-top: 21px}
+
+.node-article-case.node-list-item .info         {margin-left: 70px;min-height: 60px}
+.cases-all .node-article-case.node-list-item .info {margin-left: 20px;min-height: 40px}
+
+.node-article-case .meta .field-label           {font-weight: normal}
+.node-article-case .meta .field                 {margin-bottom: 1.5em}
+.node-article-case .meta-title                  {border-bottom: 1px solid #C5C5C5;color:#B2B2B2;margin-bottom: 2em}
+
+.node-article-case .meta-links                  {margin-bottom: 1.5em;border-bottom: 1px solid #C5C5C5}
+.node-article-employee .meta-links .field,
+.node-article-case .meta-links .field           {margin-bottom: 8px}
+.node-article-employee .meta-links .field-item a,
+.node-article-case .meta-links .field-item a    {display:block;padding-left: 35px;background: url(sprite-arrow-link.png) no-repeat 0 0}
+.node-article-employee .meta-links .field-item a:hover,
+.node-article-case .meta-links .field-item a:hover {background-position: 0 -15px;color:#B2B2B2}
+
+.node-article-case .meta-links .field-item a.goto-images {background: url(sprite-arrow-link-down.png) no-repeat 0 0}
+.node-article-case .meta-links .field-item a.goto-images:hover {background-position: 0 -15px;color:#B2B2B2}
+
+.view-cases.view-display-id-references_slideshow .node-article-case.node-list-item .image-1 {margin-bottom: 61px;}
+.view-cases.view-display-id-references_slideshow .node-article-case.node-list-item .info {min-height: 0px;}
+.view-cases.view-display-id-references_slideshow .node-article-case.node-list-item {margin-bottom: 0;}
+.view-cases.view-display-id-references_slideshow .views-slideshow-controls-bottom {margin-top: -88px;position: relative;z-index:9;}
+
+/* Node: News */
+
+.node-article-news .image                       {margin-bottom: 23px}
+.node-article-news .title                       {border-top:1px solid #C5C5C5;padding-top:18px}
+.node-article-news .file a                      {font-size: 0.9em; text-decoration: underline;}
+.node-article-news .file .file-icon             {display: none;}
+
+/* Node: Thoughts */
+
+.node-article-thought                           {margin-bottom: 0}
+.node-article-thought .field-name-field-headline-sub {margin-bottom: 50px}
+.node-article-thought .content                  {margin-left: 130px;margin-bottom:50px;max-width: 750px;background:url('img-top-line.png') no-repeat 70px 100%;padding-bottom: 1px}
+
+/* Views: Custom filter */
+
+.view-custom-filter                             {margin-bottom: 90px}
+.view-custom-filter .filter-title               {color:#B2B2B2;position: relative;top: -12px}
+.view-custom-filter .filter-item-link           {margin-right: 25px}
+.view-custom-filter .filter-spacer              {padding-left: 67px}
+
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * SPECIFIC
+ * ----------------------------------------------------------------------------------------
+ */
+.page-node-258 #block-site-module-section-header .content-right,
+.page-node-258 #node-258 .siblings,
+.page-node-258 #node-258 .employee-content .info {
+  display: none;
+}
+.page-node-258 .right-content {
+	position: absolute;
+	top: 57px;
+	left: 622px;
+}
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * FORMS
+ * ----------------------------------------------------------------------------------------
+ */
+form .form-type-textfield,
+form .form-item-pass                            {position: relative}
+form label                                      {top:18px;left:17px}
+form .form-required                             {color:#A7A7A7}
+form .form-text                                 {border:0;background: #e7e7e7}
+form .form-text:focus                           {outline:none}
+form .form-submit                               {float:left;border: 0;background: url("sprite-arrow-link.png") no-repeat scroll 0 0 transparent;display: block;padding-left: 35px;width:auto}
+form .form-submit:hover                         {cursor: pointer;background-position: 0 -15px;color:#B2B2B2}
+form a#edit-cancel                              {float:left;font-size: 0.9em;margin-left: 1em}
+
+#simplenews-block-form-20--2 .form-item-mail    {background: url(img-top-line.png) no-repeat 0 100%;padding-bottom: 27px;margin-left: 70px;margin-bottom: 1.5em}
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * MESSAGES
+ * ----------------------------------------------------------------------------------------
+ */
+div.messages                                    {background: #e7e7e7;border: 0;color:#333;padding: 20px 20px;font-size: 0.9em;margin-bottom: 30px}

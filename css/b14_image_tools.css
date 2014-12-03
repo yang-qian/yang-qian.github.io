@@ -1,0 +1,2 @@
+.image-dual-hover {/*position: relative; <--- UNCOMMENT THIS IF SOMETHING STARTS TO GO WRONG */}
+.image-dual-hover .img-normal {position: absolute}

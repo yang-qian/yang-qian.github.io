@@ -1,0 +1,283 @@
+.view-clients {
+  width: 96%;
+  margin: 60px 2%;
+  -webkit-transition: margin-left 500ms cubic-bezier(0.745, 0, 0.505, 0.555);
+  -moz-transition: margin-left 500ms cubic-bezier(0.745, 0, 0.505, 0.555);
+  -ms-transition: margin-left 500ms cubic-bezier(0.745, 0, 0.505, 0.555);
+  -o-transition: margin-left 500ms cubic-bezier(0.745, 0, 0.505, 0.555);
+  transition: margin-left 500ms cubic-bezier(0.745, 0, 0.505, 0.555); }
+  @media screen and (max-width: 560px) {
+    .view-clients {
+      width: 94%;
+      margin: 60px 3%; } }
+  .menu-open .view-clients {
+    margin-left: -30%; }
+  .view-clients .view-content {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -ms-column-count: 4;
+    -o-column-count: 4;
+    column-count: 4;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 50px; }
+    @media screen and (max-width: 850px) {
+      .view-clients .view-content {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -ms-column-count: 2;
+        -o-column-count: 2;
+        column-count: 2; } }
+    @media screen and (max-width: 560px) {
+      .view-clients .view-content {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        -ms-column-count: 1;
+        -o-column-count: 1;
+        column-count: 1; } }
+    .view-clients .view-content h3 {
+      font-size: 120px;
+      line-height: 1em;
+      font-weight: 100;
+      text-transform: uppercase;
+      line-height: 88px;
+      margin: 0;
+      padding: 0; }
+      @media screen and (max-width: 1300px) {
+        .view-clients .view-content h3 {
+          font-size: 90px; } }
+      @media screen and (max-width: 850px) {
+        .view-clients .view-content h3 {
+          font-size: 100px; } }
+    .view-clients .view-content .views-row {
+      margin: 0;
+      padding: 0; }
+      .view-clients .view-content .views-row.views-row-first {
+        padding-top: 50px; }
+        @media screen and (max-width: 1300px) {
+          .view-clients .view-content .views-row.views-row-first {
+            padding-top: 20px; } }
+        @media screen and (max-width: 850px) {
+          .view-clients .view-content .views-row.views-row-first {
+            padding-top: 20px; } }
+      .view-clients .view-content .views-row.views-row-last {
+        padding-bottom: 50px; }
+        @media screen and (max-width: 1300px) {
+          .view-clients .view-content .views-row.views-row-last {
+            padding-bottom: 40px; } }
+        @media screen and (max-width: 850px) {
+          .view-clients .view-content .views-row.views-row-last {
+            padding-bottom: 40px; } }
+
+.view-cases.view-display-id-menu .visited {
+  margin-top: 2em; }
+  .view-cases.view-display-id-menu .visited .title {
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 400; }
+.view-cases.view-display-id-preview {
+  -webkit-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+  -moz-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+  -ms-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+  -o-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+  transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  z-index: 520;
+  top: 36px;
+  bottom: 36px;
+  left: 1%;
+  overflow: hidden; }
+  .view-cases.view-display-id-preview .view-content {
+    -webkit-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    -moz-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    -ms-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    -o-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    position: relative; }
+  .view-cases.view-display-id-preview .node-case {
+    -webkit-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    -moz-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    -ms-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    -o-transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    transition: all 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+    background-color: #fff;
+    -webkit-filter: grayscale(100%) contrast(150%); }
+    .view-cases.view-display-id-preview .node-case img {
+      display: block;
+      width: 504px;
+      height: auto; }
+      @media screen and (min-width: 1366px) {
+        .view-cases.view-display-id-preview .node-case img {
+          width: 798px; } }
+    .effect-opacity .view-cases.view-display-id-preview .node-case img {
+      -webkit-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+      -moz-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+      -ms-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+      -o-transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+      transition: opacity 500ms cubic-bezier(0.24, 0.875, 0.45, 1);
+      opacity: 0.25; }
+    .effect-opacity .view-cases.view-display-id-preview .node-case.selected img {
+      opacity: 1; }
+    .view-cases.view-display-id-preview .node-case.selected {
+      -webkit-filter: grayscale(0%) contrast(100%); }
+  .view-cases.view-display-id-preview.show {
+    opacity: 1; }
+  @media screen and (max-width: 850px) {
+    .view-cases.view-display-id-preview {
+      display: none; } }
+
+/*------------------------- Fontpage Tweets--*/
+.functionality-twitter .title {
+  display: none; }
+
+.view-tweets {
+  font-size: 80px;
+  line-height: 0.9em;
+  font-weight: 100; }
+  @media screen and (max-width: 1300px) {
+    .view-tweets {
+      font-size: 60px; } }
+  @media screen and (max-width: 560px) {
+    .view-tweets {
+      font-size: 30px; } }
+  @media screen and (max-width: 560px) {
+    .view-tweets {
+      font-size: 20px; } }
+  .view-tweets a {
+    font-weight: 700; }
+  .view-tweets .views-field-text {
+    margin: 40px 0; }
+  .view-tweets .views-field-statuses-count,
+  .view-tweets .views-field-created-time {
+    font-size: 30px;
+    line-height: 1.4em;
+    font-weight: 300; }
+    @media screen and (max-width: 1300px) {
+      .view-tweets .views-field-statuses-count,
+      .view-tweets .views-field-created-time {
+        font-size: 28px; } }
+    @media screen and (max-width: 560px) {
+      .view-tweets .views-field-statuses-count,
+      .view-tweets .views-field-created-time {
+        font-size: 20px; } }
+  .view-tweets .views-field-created-time em {
+    font-style: normal; }
+
+/*------------------------- Fontpage Spotify--*/
+.spotify .track {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 180px;
+  float: left;
+  font-size: 12px;
+  line-height: 1em;
+  font-weight: 400; }
+  @media screen and (max-width: 560px) {
+    .spotify .track {
+      margin-right: 0;
+      width: 100%; } }
+  .spotify .track .track-title {
+    color: #000; }
+  .spotify .track .artist span {
+    color: #000; }
+  .spotify .track:first-child {
+    width: 100%; }
+    .spotify .track:first-child .inner {
+      display: table-cell;
+      height: 120px;
+      vertical-align: middle; }
+      @media screen and (max-width: 560px) {
+        .spotify .track:first-child .inner {
+          height: 60px; } }
+      .spotify .track:first-child .inner .track-title {
+        font-size: 30px;
+        line-height: 1.4em;
+        font-weight: 700; }
+        @media screen and (max-width: 1300px) {
+          .spotify .track:first-child .inner .track-title {
+            font-size: 28px; } }
+        @media screen and (max-width: 560px) {
+          .spotify .track:first-child .inner .track-title {
+            font-size: 20px; } }
+      .spotify .track:first-child .inner .artist {
+        font-size: 30px;
+        line-height: 1.4em;
+        font-weight: 300; }
+        @media screen and (max-width: 1300px) {
+          .spotify .track:first-child .inner .artist {
+            font-size: 28px; } }
+        @media screen and (max-width: 560px) {
+          .spotify .track:first-child .inner .artist {
+            font-size: 20px; } }
+    .spotify .track:first-child:before {
+      float: left;
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      background-image: url("../images/b14_Spotify_Play_01_01@2x.gif");
+      background-size: 120px auto;
+      margin-right: 80px;
+      content: ""; }
+      @media screen and (max-width: 560px) {
+        .spotify .track:first-child:before {
+          width: 60px;
+          height: 60px;
+          background-size: 60px auto;
+          margin-right: 20px; } }
+    .spotify .track:first-child::after {
+      display: block;
+      content: "We listened to:";
+      margin-top: 60px; }
+      @media screen and (max-width: 560px) {
+        .spotify .track:first-child::after {
+          margin-top: 20px; } }
+
+/*------------------------- Team--*/
+.view-team .category {
+  color: #000; }
+.view-team .view-menu {
+  margin-top: 30px; }
+  .view-team .view-menu .menu-title {
+    float: left;
+    margin-right: 5%; }
+    @media screen and (max-width: 850px) {
+      .view-team .view-menu .menu-title {
+        margin-right: 0;
+        width: 100%; } }
+  .view-team .view-menu .menu {
+    float: left;
+    width: 50%;
+    max-width: 700px; }
+    @media screen and (max-width: 850px) {
+      .view-team .view-menu .menu {
+        width: 100%; } }
+    .view-team .view-menu .menu a {
+      -webkit-transition: opacity 300ms cubic-bezier(0.745, 0, 0.505, 0.555);
+      -moz-transition: opacity 300ms cubic-bezier(0.745, 0, 0.505, 0.555);
+      -ms-transition: opacity 300ms cubic-bezier(0.745, 0, 0.505, 0.555);
+      -o-transition: opacity 300ms cubic-bezier(0.745, 0, 0.505, 0.555);
+      transition: opacity 300ms cubic-bezier(0.745, 0, 0.505, 0.555);
+      margin-right: 25px;
+      display: inline-block;
+      font-size: 30px;
+      line-height: 1.4em;
+      font-weight: 700; }
+      @media screen and (max-width: 1300px) {
+        .view-team .view-menu .menu a {
+          font-size: 28px; } }
+      @media screen and (max-width: 560px) {
+        .view-team .view-menu .menu a {
+          font-size: 20px; } }
+      .view-team .view-menu .menu a:hover {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 30 ")";
+        filter: alpha(opacity=30);
+        -moz-opacity: 0.3;
+        -khtml-opacity: 0.3;
+        opacity: 0.3;
+        zoom: 1; }
+
+/*# sourceMappingURL=view.css.map */

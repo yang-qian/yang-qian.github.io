@@ -1,0 +1,87 @@
+/*
+
+	B14
+	
+	Timeline
+
+*/
+
+
+/* Overall */
+.view-calendar.view-display-id-page_1 {}
+.view-calendar.view-display-id-page_1 .views-field-field-month-text h2 {font-size: 60px; line-height: 60px;}
+.view-calendar.view-display-id-page_1 .views-row {margin-bottom: 100px;}
+
+/* Split CSS3 Column */
+.split-column {
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+
+	width: 392px;
+	display: block;
+}
+
+/* Fields */
+.view-calendar.view-display-id-page_1 .views-field-field-month-date {
+	background: transparent url('../images/bline.png') no-repeat left center;
+	display: block;
+	text-align: right;
+	margin: 30px 0 60px 0;
+	
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.view-calendar .views-field-field-month-name {
+	display: block;
+  font-family: 'proxima-nova-n6','proxima-nova','ProximaNova',Arial,sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #C5C5C5;
+}
+
+
+/*
+	Item
+*/
+
+.b14-calendar-item .field-name-field-large-text,
+.b14-calendar-item .field-name-field-image-url a {
+	font-size: 26px;
+	font-weight: 800;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.b14-calendar-item .field-name-field-large-text,
+.b14-calendar-item .field-name-field-text {
+	display: block;
+	width: 388px;
+}
+.b14-calendar-item .field-name-field-case-url a {
+	display:block;
+	padding-left: 35px;
+	background: url(../images/sprite-arrow-link.png) no-repeat 0 0;
+	font-size: 0.9em;
+}
+.b14-calendar-item .field-name-field-case-url a:hover {
+	background-position: 0 -15px;
+	color:#B2B2B2;
+}
+
+/*
+	Page Sidelines
+*/
+
+#wrapper {
+/*
+	border-left: 1px solid #C5C5C5;
+	border-right: 1px solid #C5C5C5;
+*/
+}
