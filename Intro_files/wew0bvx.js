@@ -1,7 +1,7 @@
 /*
  * For font license information, see the CSS file loaded by this JavaScript.
  */
-if(!window.Typekit)window.Typekit={};window.Typekit.config={"c":[".tk-proxima-nova","\"proxima-nova\",sans-serif"],"f":"//use.typekit.net/c/b5bf1c/1w;proxima-nova,1,Vmv:N:n1,Vmx:N:n3,W0V:N:n4,W0X:N:n6,W0Y:N:n7,Vn5:N:n8,Vn7:N:n9/{format}{/extras*}?3bb2a6e53c9684ffdc9a9af01f5b2a622efd7840c2402f303da8ebfa72e1526048b8292ebf43d1febdfb084a16bcad6e57546e925df240c5762630b42b573edec2","fn":["proxima-nova",["n1","n3","n4","n6","n7","n8","n9"]],"k":"//use.typekit.net/{id}.js","p":"//p.typekit.net/p.gif?s=1&k=wew0bvx&ht=tk&h={host}&f=175.139.169.173.5474.137.171&a=505171&_={_}","w":"wew0bvx"};
+if(!window.Typekit)window.Typekit={};window.Typekit.config={"c":[".tk-proxima-nova","\"proxima-nova\",sans-serif"],"f":"//use.typekit.net/c/b5bf1c/1w.css;proxima-nova,1,Vmv:N:n1,Vmx:N:n3,W0V:N:n4,W0X:N:n6,W0Y:N:n7,Vn5:N:n8,Vn7:N:n9/{format}{/extras*}?3bb2a6e53c9684ffdc9a9af01f5b2a622efd7840c2402f303da8ebfa72e1526048b8292ebf43d1febdfb084a16bcad6e57546e925df240c5762630b42b573edec2","fn":["proxima-nova",["n1","n3","n4","n6","n7","n8","n9"]],"k":"//use.typekit.net/{id}.js","p":"//p.typekit.net/p.gif?s=1&k=wew0bvx&ht=tk&h={host}&f=175.139.169.173.5474.137.171&a=505171&_={_}","w":"wew0bvx"};
 /*{"k":"1.6.4","created":"2013-09-09T09:32:23Z"}*/
 ;(function(window,document,undefined){
 var j=!0,k=null,l=!1;function m(a){return function(){return this[a]}}var aa=this;function ba(a,b){var c=a.split("."),d=aa;!(c[0]in d)&&d.execScript&&d.execScript("var "+c[0]);for(var e;c.length&&(e=c.shift());)!c.length&&void 0!==b?d[e]=b:d=d[e]?d[e]:d[e]={}}function da(a,b,c){return a.call.apply(a.bind,arguments)}

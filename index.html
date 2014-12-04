@@ -22,10 +22,9 @@
 	font-family: "proxima-nova", sans-serif;
 }
 </style>
-<link rel="stylesheet" href="css2/1w">
+<link rel="stylesheet" href="css2/1w.css">
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <style type="text/css" media="all">
-@import url("");
 @import url("css2/system.messages.css");
 @import url("css2/system.theme.css");
 </style>
@@ -35,7 +34,8 @@
 @import url("css/scroll.css");
 @import url("css2/base.css");
 @import url("css2/mouse.css");
-@import url("css2/Expand.css");
+@import url("css2/expand.css");
+@import url("css2/sns.css");
 @import url("css2/date.css");
 @import url("css2/field.css");
 @import url("css2/logintoboggan.css");
@@ -56,11 +56,7 @@
 <script type="text/javascript" src="./Intro_files/b14_simplenews.js"></script>
 <script type="text/javascript" src="./Intro_files/b14_tools.js"></script>
 <script type="text/javascript" src="./Intro_files/main.js"></script>
-<script type="text/javascript" src="./css2/expand.js"></script>
 <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-633718-1");ga("send", "pageview");
-//--><!]]>
 </script>
 <script type="text/javascript" src="./Intro_files/docCookies.js"></script>
 <script type="text/javascript" src="./Intro_files/jquery.onepage-scroll.js"></script>
@@ -97,7 +93,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <section id="block-system-main" class="block block-system">
     <div class="content">
     <article class="node node-journal view-mode-full scroller-data clearfix" data-colors="#f3f3f3|#e5e5e5|#fefefe" data-title="We are b14" data-id="66">
-      <div class="top-cover" style="height: 554px; display: block;">
+    <div class="top-cover" style="height: 554px; display: block;">
         <div class="cover white" style="background-image: url(intro_files/bg.png); background-color: #fff">
           <div class="content" align="center">
             <div class="category" style="font:'proxima-nova';margin-top: 120px;font-size:0.8em;color:#4B4B4B">welcome:)</div>
@@ -106,10 +102,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
               <div class="field-items">
                 <div class="field-item even" style="font:'proxima-nova';font-size:0.8em;color:#4B4B4B">Design Researcher / Designer</div>
               </div>
-              <div class="mouse" style="margin-top:100px">
+<!-- rolling mouse -->
+<div class="mouse" style="margin-top:10px">
                 <div class="wheel" ></div>
               </div>
-              
+<!-- rolling mouse end-->          
             </div>
           </div>
         </div>
@@ -118,39 +115,38 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <div class="content" style="margin-top: 589px;">
       <div class="field field-name-field-text field-type-text-long field-label-hidden">
       <div class="field-item even content">
-                <p><span>I'm a PhD researcher/designer at the <a href="https://www.hcii.cmu.edu/" style="background-color:white"><u>Human-Computer
-  			Interaction Institute</u></a> at Carnegie Mellon University. I'm co-advised by <a href="https://www.hcii.cmu.edu/people/john-zimmerman" style="background-color:white"><u>Dr. John Zimmerman</u></a> and <a href="http://www.ri.cmu.edu/person.html?person_id=982" style="background-color:white"><u>Dr. Aaron Steinfeld</u></a>. My research inverstigates Design in HCI practices, with a focus on how design can make data science better support human-centered decision-making process.</span></p>
-<div class="expand-wrapper" style="margin-top:5px">
-  <input type="checkbox" id="bee" class="expand-input"/>
-  <label class="expand-label" for="bee">Designing Medical Decision Support Tool</label>
-  <div class="expand-content">
-                    <p>I am designing a decisions support tool that mines medical histories and makes an intervention recommendation to advanced heart failure patients and physicians.My research and design raise questions from a human-factor perspective:
-                      </p>
-                      <img src="intro_files/VAD.png" style="width:250px; margin-top:10px; border-bottom:dotted #eaeaea">
-                    <p><img src="intro_files/Q.png">		How can we make the computational tool better merged into a human-centered medical process?<br><img src="intro_files/Q.png">	How can we design data mining outputs in a way that can lead to better decision-making process and thus better medical decision?<br><img src="intro_files/Q.png">	What is a better decision-making process? What is a better end-of-life decision anyway?</li>
-                  </p>
-  </div>
+                <p>I'm a PhD researcher/designer at the <a href="https://www.hcii.cmu.edu/" style="background-color:white"><u>Human-Computer
+  			Interaction Institute</u></a> at Carnegie Mellon University. I'm co-advised by <a href="https://www.hcii.cmu.edu/people/john-zimmerman" style="background-color:white"><u>Dr. John Zimmerman</u></a> and <a href="http://www.ri.cmu.edu/person.html?person_id=982" style="background-color:white"><u>Dr. Aaron Steinfeld</u></a>. My research inverstigates Design in HCI practices, with a focus on how design can make data science better support human-centered decision-making process.<br>My two ongoing projects are:</p>
+<!-- Info Btn 1 -->
+<div class='contenedor'>
+  <input id='project1' type="checkbox"/>
+  <label for="project1"></label>
+<div class="expand">
+  <span class="small-txt"  style="font-size:small"><p class="thin-display">CORA: Design a Medical Decision Support Tool</p>I am designing a decisions support tool that mines medical histories and makes an intervention recommendation to advanced heart failure patients and physicians.<br>My research and design raise questions from a human-factor perspective:<img src="intro_files/VAD.png" style="width:250px; margin-top:10px; border-bottom:dotted #eaeaea"><br><img src="intro_files/Q.png">How can we make the computational tool better merged into a human-centered decision-making process?<br><img src="intro_files/Q.png">How can we design data mining outputs in a way that can lead to better decision-making process and thus better medical decision?<br><img src="intro_files/Q.png">What is a better decision-making process? What is a better end-of-life decision anyway?</li></p></span>
 </div>
-<div class="expand-wrapper">
-  <input type="checkbox" id="dragonfly" class="expand-input"/>
-  <label class="expand-label" for="dragonfly">Tiramisu: Crowd-sourced Public Transit Arrival Times</label>
-  <div class="expand-content">The Tiramisu project investigates how social media can provide new ways for citizens to take ownership of and responsibility for their public services. As a former car designer, I'm highly excited about the new design possibilities enabled by personal transit prediction and other crowd-sourced data.</div>
 </div>
-            <br><span>Before coming to CMU...<br><p style="margin-top:0px">I worked as a design trend researcher and consultant for more than 5 years in Shanghai. <a href="highlights.html">My researches</a> highlight Chinese customer aesthetic, attitudinal and behavioral insights, and help companies from multiple industries including automotive, FMCG, and technology understand their users and localize their products from early stages of product development.</p></span>
-                  
-<!-- Expandable Contents -->
-<div class="expand-wrapper" style="margin-top:5px">
-  <input type="checkbox" id="wasp" class="expand-input"/>
-  <label class="expand-label" for="wasp"><a href="highlights.html">Selected Design Research Works</a></label>
+<!-- Info Btn 2-->
+<div class='contenedor'>
+  <input id='project2' type="checkbox"/>
+  <label for="project2"></label>
+<div class="expand">
+  <span class="small-txt"  style="font-size:small"><p class="thin-display">Tiramisu: Crowd-sourced Public Transit</p>The Tiramisu project investigates how social media can provide new ways for citizens to take ownership of and responsibility for their public services. As a former car designer, I'm highly excited about the new design possibilities enabled by personal transit prediction and other crowd-sourced data.</p></span>
 </div>
-<!-- Expandable Contents End -->
+</div>
+<br>
+<span>Before coming to CMU...<br><p style="margin-top:0px">I worked as a design trend researcher and consultant for more than 5 years in Shanghai. <a href="highlights.html">My researches</a> highlight Chinese customer aesthetic, attitudinal and behavioral insights, and help companies from multiple industries including automotive, FMCG, and technology understand their users and localize their products from early stages of product development.</p></span>
+</div>
+</div>
+<!-- Social Icons Start !-->
+<div id="SNScontainer">
+		<div id="social">
+	<div id="linkedin" class="entypo-linkedin"></div>
+    <div id="facebook" class="entypo-facebook"></div>
+	<div id="instagram" class="entypo-instagram"></div>
+        </div>
+     </div>
+<!-- Social Icons End !-->
               </div>
-              </div>
-              </div>
-      
-      
-      
-      
     </article>
     </div>
   </section>
@@ -160,7 +156,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </section>
 <!-- /#main -->
 
-<footer id="footer" role="contentinfo" class="clearfix"> </footer>
+<footer id="footer" role="contentinfo" class="clearfix">
+
+
+
+</footer>
 <!-- /#footer -->
 
 
