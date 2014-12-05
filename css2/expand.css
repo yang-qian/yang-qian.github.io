@@ -59,7 +59,7 @@
 }
 
 input[type=checkbox]:checked ~ .expand {
- max-height: 500px;
+ max-height: 800px;
 }
 
 input[type=checkbox]:checked ~ .expand:before {
