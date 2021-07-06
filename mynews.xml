@@ -7,16 +7,21 @@
             <language>en-au</language>
 
             <item>
-                <title>05-11-2021</title>
-                <description><a href="https://dl.acm.org/doi/abs/10.1145/3411763.3457783">My Dissertation</a> received a prestigous SIGCHI Outstanding Dissertation Award of 2021! Here is a <a href="https://www.youtube.com/watch?v=GOHxT2886nA&ab_channel=ACMSIGCHI">5-min video summary</a>.</description>
+                <title>My Dissertation received a prestigous SIGCHI Outstanding Dissertation Award of 2021!</title>
+                <link>https://www.youtube.com/watch?v=GOHxT2886nA</link>
+                <description>Here is a 5-min video summary.</description>
+                <pubdate>05-11-2021</pubdate>
             </item>
             <item>
-                <title>04-26-2021</title>
-                <description>Janet Chen received a Postgraduate Scholarship-Doctoral (PSG D) fellowship from the Natural Sciences and Engineering Research Council of Canada (NSERC)!</description>
+                <title>Janet Chen received a Postgraduate Scholarship-Doctoral (PSG D) fellowship from the Natural Sciences and Engineering Research Council of Canada (NSERC)!</title>
+                <description></description>
+                <pubdate>04-26-2021</pubdate>
             </item>
             <item>
-                <title>03-02-2021</title>
-                <description>I am honored to receive a PCCW Affinito-Stewart Grant from the <a href="https://alumni.cornell.edu/volunteer/leadership/pccw/">President's Council of Cornell Women</a>!</description>
+                <title>I am honored to receive a PCCW Affinito-Stewart Grant from the President's Council of Cornell Women!</title>
+                <description></description>
+                <link>https://alumni.cornell.edu/volunteer/leadership/pccw/grants/</link>
+                <pubdate>03-02-2021</pubdate>
             </item>
         </channel>
     </rss>
