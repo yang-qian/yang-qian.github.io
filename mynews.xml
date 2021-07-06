@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+    <rss version="2.0">
+        <channel>
+            <title>Qian Yang Website News</title>
+            <link>yang-qian.github.io</link>
+            <description>Qian Yang Website News</description>
+            <language>en-au</language>
+            <item>
+                <title>Title</title>
+                <description>test description</description>
+                <link>link</link>
+            </item>
+
+        </channel>
+    </rss>
